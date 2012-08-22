@@ -10,4 +10,4 @@ set columns=190
 set guifont=Inconsolata:h20,Monaco:h17
 
 " remove visual and audible bells
-set vb t_vb
+set vb t_vb=
