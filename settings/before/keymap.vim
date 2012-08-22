@@ -20,9 +20,5 @@ nnoremap <silent> <C-j> <C-w>j
 " map zz to zoom in and out of a window
 map zz <C-W>o
 
-" four spaces
-set tabstop=4
-set shiftwidth=4
-
 "Clear current search highlight by double tapping //
 nmap <silent> // :nohlsearch<CR>
