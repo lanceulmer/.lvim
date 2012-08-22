@@ -1,0 +1,3 @@
+for f in split(glob('~/.lvim/settings/before/*.vim'), '\n')
+    exe 'source' f
+endfor

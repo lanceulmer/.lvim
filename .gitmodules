@@ -1,0 +1,6 @@
+[submodule "bundle/vim-tomorrow-theme"]
+	path = bundle/vim-tomorrow-theme
+	url = https://github.com/chriskempson/vim-tomorrow-theme.git
+[submodule "bundle/moonscript-vim"]
+	path = bundle/moonscript-vim
+	url = https://github.com/leafo/moonscript-vim.git
