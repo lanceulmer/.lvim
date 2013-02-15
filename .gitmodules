@@ -4,3 +4,9 @@
 [submodule "bundle/moonscript-vim"]
 	path = bundle/moonscript-vim
 	url = https://github.com/leafo/moonscript-vim.git
+[submodule "bundle/ack.vim"]
+	path = bundle/ack.vim
+	url = git://github.com/mileszs/ack.vim.git
+[submodule "bundle/vim-fugitive"]
+	path = bundle/vim-fugitive
+	url = git@github.com:tpope/vim-fugitive.git
