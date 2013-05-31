@@ -1,1 +1,7 @@
+# .DS_Store
 .DS_Store
+
+# Vim
+_backup
+_temp
+.netrwhist

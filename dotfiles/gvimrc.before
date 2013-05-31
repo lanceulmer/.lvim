@@ -1,5 +1,0 @@
-if has("gui_running")
-    for f in split(glob('~/.lvim/settings/guibefore/*.vim'), '\n')
-        exe 'source' f
-    endfor
-endif
