@@ -2,8 +2,8 @@
 let mapleader=","
 
 " ii exists insert mode
-ino ii <esc>
-cno ii <c-c>
+"ino ii <esc>
+"cno ii <c-c>
 
 " in visual mode, use "v" to toggle it on & off:
 vno v <esc>
