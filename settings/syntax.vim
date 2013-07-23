@@ -11,11 +11,18 @@ set encoding=utf-8    " Set default encoding to UTF-8
 set list
 set listchars=trail:·,tab:▸\ ,eol:¬
 
-" four spaces
-set smartindent
-set tabstop=4
-set shiftwidth=4
+" indent
+set autoindent
 set expandtab
+set shiftround
+" defaults
+set tabstop=2
+set softtabstop=2
+set shiftwidth=2
+" filetypes
+autocmd FileType moon setlocal tabstop=4 softtabstop=4 shiftwidth=4
+autocmd FileType lua setlocal tabstop=4 softtabstop=4 shiftwidth=4
+autocmd FileType loom setlocal tabstop=4 softtabstop=4 shiftwidth=4
 
 " source: http://vimcasts.org/episodes/tabs-and-spaces/
 " Set tabstop, softtabstop and shiftwidth to the same value
