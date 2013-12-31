@@ -23,6 +23,9 @@ set shiftwidth=2
 autocmd FileType moon setlocal tabstop=4 softtabstop=4 shiftwidth=4
 autocmd FileType lua setlocal tabstop=4 softtabstop=4 shiftwidth=4
 autocmd FileType loom setlocal tabstop=4 softtabstop=4 shiftwidth=4
+" treat capistrano as ruby
+au BufRead,BufNewFile Capfile setfiletype ruby
+au BufRead,BufNewFile *.cap setfiletype ruby
 
 " source: http://vimcasts.org/episodes/tabs-and-spaces/
 " Set tabstop, softtabstop and shiftwidth to the same value
